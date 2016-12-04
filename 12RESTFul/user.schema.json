@@ -1,0 +1,20 @@
+{
+	"type":"object",
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"id": "http://jsonschema.net",
+	"required": ["name","password"],
+	"properties":{
+		"name": {
+			"type":"string",
+			"id": "http://jsonschema.net/name"
+		},
+		"password": {
+			"type":"string",
+			"id": "http://jsonschema.net/password"
+		},
+		"profession": {
+			"type":"string",
+			"id": "http://jsonschema.net/profession"
+		}
+	}
+}
